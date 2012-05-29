@@ -20,12 +20,10 @@ name: Dist-Zilla-PluginBundle-DBR
 requires:
   Dist::Zilla: 0
   Dist::Zilla::Plugin::AutoPrereqs: 0
-  Dist::Zilla::Plugin::CheckChangeLog: 0
   Dist::Zilla::Plugin::ConfirmRelease: 0
   Dist::Zilla::Plugin::EOLTests: 0
   Dist::Zilla::Plugin::InstallRelease: 0
   Dist::Zilla::Plugin::NoTabsTests: 0
-  Dist::Zilla::Plugin::OurPkgVersion: 0
   Dist::Zilla::Plugin::PkgVersion: 0
   Dist::Zilla::Plugin::PodCoverageTests: 0
   Dist::Zilla::Plugin::PodSyntaxTests: 0
@@ -37,5 +35,5 @@ requires:
   Dist::Zilla::Plugin::TestRelease: 0
   Dist::Zilla::PluginBundle::Filter: 0
   MooseX::Declare: 0
-version: 0.001
+version: 0.002
 x_authority: cpan:DBR
