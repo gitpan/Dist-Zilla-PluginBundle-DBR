@@ -44,7 +44,7 @@ my %WriteMakefileArgs = (
     "Dist::Zilla::PluginBundle::Filter" => 0,
     "MooseX::Declare" => 0
   },
-  "VERSION" => "0.022",
+  "VERSION" => "0.023",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -1,6 +1,6 @@
 package Dist::Zilla::PluginBundle::DBR;
 {
-  $Dist::Zilla::PluginBundle::DBR::VERSION = '0.022';
+  $Dist::Zilla::PluginBundle::DBR::VERSION = '0.023';
 }
 BEGIN {
   $Dist::Zilla::PluginBundle::DBR::AUTHORITY = 'cpan:DBR';
@@ -31,6 +31,11 @@ class Dist::Zilla::PluginBundle::DBR with Dist::Zilla::Role::PluginBundle::Easy 
             'NoTabsTests',
             'ReadmeFromPod',
             'TestRelease',
+            'AutoPrereqs',
+            'Test::ReportPrereqs',
+            'Test::Portability',
+            'Test::Kwalitee',
+            'Test::CheckDeps',
         );
     }
 }
@@ -45,27 +50,32 @@ Dist::Zilla::PluginBundle::DBR - DBRs Dist::Zilla PluginBundle
 
 =head1 VERSION
 
-version 0.022
+version 0.023
 
 =head1 SYNOPSIS
 
 This PluginBundle is roughly equivalent to the following C<dist.ini>:
 
   # dist.ini
-  [@Basic]
+  [@Classic]
   [Authority]
       authority = cpan:DBR
 
   [AutoPrereqs]
   [PkgVersion]
+  [TestRelease]
+  [ConfirmRelease]
+  [PodWeaver]
+
+  [Test::Compile]
+  [Test::ReportPrereqs]
+  [Test::Portability]
+  [Test::Kwalitee]
+  [Test::CheckDeps]
   [PodCoverageTests]
   [PodSyntaxTests]
   [NoTabsTests]
   [EOLTests]
-  [Test::Compile]
-  [TestRelease]
-  [ConfirmRelease]
-  [PodWeaver]
 
 =head1 AUTHOR
 
