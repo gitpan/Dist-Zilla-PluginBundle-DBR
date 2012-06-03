@@ -35,5 +35,5 @@ requires:
   Dist::Zilla::Plugin::TestRelease: 0
   Dist::Zilla::PluginBundle::Filter: 0
   MooseX::Declare: 0
-version: 0.021
+version: 0.022
 x_authority: cpan:DBR

@@ -1,6 +1,6 @@
 package Dist::Zilla::PluginBundle::DBR;
 {
-  $Dist::Zilla::PluginBundle::DBR::VERSION = '0.021';
+  $Dist::Zilla::PluginBundle::DBR::VERSION = '0.022';
 }
 BEGIN {
   $Dist::Zilla::PluginBundle::DBR::AUTHORITY = 'cpan:DBR';
@@ -29,7 +29,6 @@ class Dist::Zilla::PluginBundle::DBR with Dist::Zilla::Role::PluginBundle::Easy 
             'MetaJSON',
             'ModuleBuild',
             'NoTabsTests',
-            'PodSyntaxTests',
             'ReadmeFromPod',
             'TestRelease',
         );
@@ -46,7 +45,7 @@ Dist::Zilla::PluginBundle::DBR - DBRs Dist::Zilla PluginBundle
 
 =head1 VERSION
 
-version 0.021
+version 0.022
 
 =head1 SYNOPSIS
 
