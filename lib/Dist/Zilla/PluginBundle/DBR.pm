@@ -1,6 +1,6 @@
 package Dist::Zilla::PluginBundle::DBR;
 {
-  $Dist::Zilla::PluginBundle::DBR::VERSION = '0.023';
+  $Dist::Zilla::PluginBundle::DBR::VERSION = '0.024';
 }
 BEGIN {
   $Dist::Zilla::PluginBundle::DBR::AUTHORITY = 'cpan:DBR';
@@ -50,7 +50,7 @@ Dist::Zilla::PluginBundle::DBR - DBRs Dist::Zilla PluginBundle
 
 =head1 VERSION
 
-version 0.023
+version 0.024
 
 =head1 SYNOPSIS
 
